@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   background-color: #fad9a6;
+}
+#cabecalho, #rodape {
+    font-family: "Oswald", sans-serif;
+    background-color: #295264;
+    color: white;
+}
+
+.cadastro {
+    background-color: white;
+    width: 100%;
+}
+
+#cabecalho h1{ 
+    margin : 0;
+    font-size: 4rem;
+}
+
+#cabecalho {
+    text-align: center;
+    padding: 70px;
+}
+
+#rodape {
+    
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+h2 {
+    border-left: 15px solid #142433;
+    border-bottom: 2px solid #142433;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}   
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}    
+
+a:link, a:visited, a:hover,a:active {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: lower-greek;
+}
+
+.itemflecha {
+    list-style-image: url('imagens/seta1.png');
+}
+
+.itemquadrado {
+    list-style-type: square;
+}
+
+article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: lightgray;
+}
+
+spam {
+    font-style: italic;
+}
+
+.autor, .subir {
+    text-align: right;
+    color: rgb(144, 144, 144);
+}
+
+#rodape p {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 0;
+}
+
+th {
+    background-color: black;
+    color: white
+}
+
+tr.par {
+    background-color: lightgray;
+}
+
+tr.impar {
+    background-color: white;
+}
+
+tr.exibir-mais {
+    background-color: lightgray;
+}
+
+.acoes, .id-linha {
+    text-align: center;
+}
